@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
+body{
+
+    /* background-color: #FDE4E8; */
+    text-align: center;
+    background-image: linear-gradient(rgb(250, 218, 223),#FDE4E8,#E9FFFF,rgb(250, 218, 223));
+}
+
+
+.div1{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 94%;
+    height: 8%;
+    margin-top: 0%;
+    padding: 3rem;
+    background: #E9FFFF;
+    border-radius: 2rem 2rem 12rem 12rem;
+    /* overflow: auto; */
+    
+
+}
+a{
+    text-decoration: none;
+    color: #E9FFFF;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    font-size: 2rem;
+    font-family: 'Kavoon', cursive;
+    padding: 1rem;
+    background-color: rgb(59, 52, 52);
+    border-radius: 5rem;
+}
+img.first{
+    width: 20rem;
+    height: 19rem;
+    /* margin-top: -7%; */
+    border-radius: 55rem;
+    /* margin-left: 73%; */
+    transform: translate(325%,-90%);
+}
+
+img.second{
+    width: 20rem;
+    height: 19rem;
+    /* margin-top: -16rem; */
+    border-radius: 55rem;
+    /* margin-right: 90rem; */
+    transform: translate(-111%,-39%);
+}
+
+img.third{
+    width: 20rem;
+    height: 19rem;
+    /* margin-top: -6rem; */
+    border-radius: 55rem;
+    /* margin-right: 65rem; */
+    transform: translate(-162%,65%);
+    
+}
+
+img.forth{
+    width: 20rem;
+    height: 19rem;
+    /* margin-top: -6rem;
+    margin-left: 65rem; */
+    transform: translate(12%,160%);
+}
+
+img.fifth{
+    width: 20rem;
+    height: 19rem;
+    /* margin-top: 5rem; */
+    border-radius: 55rem;
+    /* margin-right: 90rem; */
+    transform: translate(-114%,-55%);
+}
+img.sixth{
+    width: 20rem;
+    height: 19rem;
+    /* margin-top: -7rem; */
+    border-radius: 55rem;
+    /* margin-right: 55%; */
+    transform: translate(-155%,55%);
+}
+
+h1{
+    /* display: inline; */
+    /* margin-top: 11%; */
+    font-family: 'Kavoon', cursive;
+    color: rgb(59, 52, 52) ;
+    font-size: 6rem;
+    transform: translate(3%,-66%);
+}
+p{
+    width: 30%;
+    font-family: 'Kavoon', cursive;
+    font-size: 4rem;
+    /* margin-top: -38rem;  */
+    color: rgb(59, 52, 52) ;
+    transform: translate(135%,-58%);
+    
+}
+
+
+img.second:hover{
+    content: url('./image/77.jpeg');
+    height: 25rem;
+    width: 27rem;
+
+    transition: all 2s;
+}
+
+img.third:hover{
+    content: url('./image/66.png');
+    height: 25rem;
+    width: 27rem;
+
+    transition: all 2s;
+}
+
+img.forth:hover{
+    transform: rotate(12deg);
+
+    transition: all 2s;
+}
+
+img.fifth:hover{
+    content: url('./image/22.jpeg');
+    height: 25rem;
+    width: 27rem;
+
+    transition: all 2s;
+}
+
+img.sixth:hover{
+    content: url('./image/55.jpeg');
+    height: 25rem;
+    width: 27rem;
+
+    transition: all 2s;
+}
+
+
+@media (max-width: 1400px) {
+    
+
+        img.first{
+        
+            width: 20rem;
+            height: 19rem;
+            border-radius: 55rem;
+            transform: translate(13rem,-8rem);
+        }
+        
+        img.second{
+            width: 20rem;
+            height: 19rem;
+            border-radius: 55rem;
+            transform: translate(-19rem,8rem);
+        
+        }
+        
+        img.third{
+            width: 20rem;
+            height: 19rem;
+            border-radius: 55rem;
+            transform: translate(14rem,4rem);
+            
+            
+        }
+        
+        img.forth{
+            width: 20rem;
+            height: 19rem;
+            transform: translate(32rem,31rem);
+           
+        }
+        
+        img.fifth{
+            width: 20rem;
+            height: 19rem;
+            border-radius: 55rem;
+            transform: translate(2rem,-47rem);
+         
+        }
+        img.sixth{
+            width: 20rem;
+            height: 19rem;
+            border-radius: 55rem;
+            transform: translate(-6rem,-31rem);
+          
+        }
+        
+        h1{
+            
+            font-family: 'Kavoon', cursive;
+            color: rgb(59, 52, 52) ;
+            font-size: 6rem;
+            transform: translate(2rem,-4rem);
+        }
+        p{
+            width: 30%;
+            font-family: 'Kavoon', cursive;
+            font-size: 4rem;
+            color: rgb(59, 52, 52) ;
+            transform: translate(43rem,-48rem);
+    
+            
+        }
+    }
+    
+
+        
